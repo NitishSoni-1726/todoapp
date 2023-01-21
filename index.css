@@ -11,18 +11,19 @@ body{
 
 .container{
 	display: flex;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 }
 
 .content{
+	margin-top: 200px;
 	max-width: 700px;
 	width: 100%;
 	padding: 20px 20px;
 	background: transparent;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 8px;
 }
 
@@ -32,13 +33,14 @@ body{
 }
 
 #searchbar{
+	color: white;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	background: transparent;
 	height: 50px;
 	font-weight: 500;
 	padding: 10px 10px;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 10px;
 	font-size: 20px;
 	width: 100%;
@@ -50,11 +52,12 @@ body{
 }
 
 #userInput{
+	color: white;
 	background: transparent;
 	height: 50px;
 	font-weight: 500;
 	padding: 10px 10px;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 10px;
 	font-size: 20px;
 	width: 95%;
@@ -63,13 +66,13 @@ body{
 #submitForm{
 	height: 50px;
 	margin: 0 0 0 5px;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 20px;
 	padding: 10px 10px;
 	font-size: 20px;
 	width: 80px;
 	background: transparent;
-	color: black;
+	color: white;
 	cursor: pointer;
 	font-weight: 700;
 }
@@ -80,13 +83,14 @@ body{
 }
 
 #taskList{
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
 	padding: 5px 0 5px 0;
 	display: flex;
 	align-items: center;
 }
 
 #element{
+	color: white;
 	margin-left: 10px;
 	border: none;
 	background: transparent;
@@ -103,8 +107,9 @@ body{
 }
 
 #editButton{
+	color: white;
 	margin-left: 10px;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 10px;
 	background: none;
 	font-weight: 800;
@@ -114,9 +119,10 @@ body{
 }
 
 #saveButton{
+	color: white;
 	margin-left: 10px;
 	display: none;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 10px;
 	background: none;
 	font-weight: 800;
@@ -143,10 +149,10 @@ body{
 }
 
 .primary-button {
-	border: 3px solid black;
+	border: 3px solid white;
 	border-radius: 10px ;
 	padding: 10px;
-	color: black;
+	color: white;
 	font-size: 15px;
 	font-weight: 600;
 	background: transparent;
@@ -154,7 +160,8 @@ body{
 }
 
 #footer{
-	border: 2px solid black;
+	color: white;
+	border: 2px solid white;
 	border-radius: 5px;
 	padding: 5px;
 	display: flex;
@@ -169,10 +176,10 @@ body{
 }
 
 #showAll, #showCompleted, #showRemaining{
-	border: 3px solid black;
+	border: 3px solid white;
 	border-radius: 10px ;
 	padding: 10px;
-	color: black;
+	color: white;
 	font-size: 15px;
 	font-weight: 600;
 	background: transparent;
@@ -181,7 +188,6 @@ body{
 
 .checked{
 	text-decoration: line-through;
-	color: blue;
 }
 
 .hide {
