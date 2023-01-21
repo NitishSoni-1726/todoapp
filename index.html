@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <form id="displayBox">
+                <input type="text" id='userInput' placeholder="Create a New Task" required>
+                <input type="submit" id='submitForm' value="Add">
+            </form>
+            <div id="sort">
+                <button id="deleteAll" class="primary-button">Delete All</button>
+                <button id="sortByTaskStatus" class="primary-button">Sort Completed</button>
+                <button id="sortTaskByText" class="primary-button">Sort Alphabetically</button>
+            </div>
+            <div id="search">
+                <input type="text" id="searchbar" placeholder="Type to Search">
+            </div>
+            <ul class="list" id="list">
+
+            </ul>
+            <div class="footer" id="footer">
+                <div>Total Task: <span id='totalTasks'>0</span></div>
+                <div>Completed Task: <span id="completedTask">0</span></div>
+                <div>Remaining Task: <span id="remainingTask">0</span></div>
+            </div>
+            <div class="filterButtons" id="filterButtons">
+                <button id="showAll">Show All Task</button>
+                <button id="showCompleted">Show Completed Task</button>
+                <button id="showRemaining">Show Reamaining Task</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
