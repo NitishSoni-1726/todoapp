@@ -33,6 +33,7 @@ function deleteFromDb(id) {
   localStorage.removeItem(id);
 }
 
+// Let's delete all the stuff from the db
 function deleteAllDb() {
   todoItems = [];
   localStorage.clear();
