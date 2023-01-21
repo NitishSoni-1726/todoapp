@@ -115,7 +115,7 @@ body{
 	font-weight: 800;
 	cursor: pointer;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 #saveButton{
@@ -128,7 +128,7 @@ body{
 	font-weight: 800;
 	cursor: pointer;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 20px;
 
 }
 
@@ -194,3 +194,185 @@ body{
 	display: none;
 }
 
+@media (max-width:400px){
+	body{
+		background-image: url(mobile\ background.jpg);
+		background-repeat: repeat;
+		background-size: cover;
+	}
+	.container{
+		display: flex;
+		height: 100%;
+		width: 100%;
+		justify-content: center;
+	}
+	
+	.content{
+		margin-bottom: 150px;
+		margin-top: 200px;
+		max-width: 500px;
+		width: 100%;
+		padding: 10px 10px;
+		background: transparent;
+		border: 2px solid white;
+		border-radius: 8px;
+	}
+	
+	#search{
+		display: flex;
+		width: 100%;
+	}
+	
+	#searchbar{
+		color: white;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		background: transparent;
+		height: 30px;
+		font-weight: 500;
+		padding: 5px 5px;
+		border: 2px solid white;
+		border-radius: 5px;
+		font-size: 0px;
+		width: 100%;
+	}
+	
+	#displayBox{
+		display: flex;
+		width: 100%;
+	}
+	
+	#userInput{
+		color: white;
+		background: transparent;
+		height: 30px;
+		font-weight: 500;
+		padding: 5px 5px;
+		border: 2px solid white;
+		border-radius: 5px;
+		font-size: 15px;
+		width: 95%;
+	}
+	
+	#submitForm{
+		height: 30px;
+		margin: 0 0 0 5px;
+		border: 2px solid white;
+		border-radius: 20px;
+		padding: 5px 5px;
+		font-size: 15px;
+		width: 80px;
+		background: transparent;
+		color: white;
+		cursor: pointer;
+		font-weight: 700;
+	}
+	
+	#list{
+		margin: 5px 0 5px 0;
+		padding: 10px;
+	}
+	
+	#taskList{
+		border-bottom: 2px solid white;
+		padding: 5px 0 5px 0;
+		display: flex;
+		align-items: center;
+	}
+	
+	#element{
+		color: white;
+		margin-left: 5px;
+		border: none;
+		background: transparent;
+		padding: 0 10px 0 10px;
+		font-size: 15px;
+		font-weight: 700;
+		flex: 1;
+	}
+	
+	#todo-checkbox{
+		cursor: pointer;
+		width: 15px;
+		height: 25px;
+	}
+	
+	#editButton{
+		color: white;
+		margin-left: 10px;
+		border: 2px solid white;
+		border-radius: 10px;
+		background: none;
+		font-weight: 800;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+	
+	#saveButton{
+		color: white;
+		margin-left: 10px;
+		display: none;
+		border: 2px solid white;
+		border-radius: 10px;
+		background: none;
+		font-weight: 800;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 13px;
+	
+	}
+	
+	#deleteButton{
+		font-size: 18px;
+		border: none;
+		background: none;
+		color: red;
+		font-weight: 900;
+		cursor: pointer;
+	}
+
+	#sort{
+		display: flex;
+		justify-content: space-between;
+		margin: 10px 0 0 0;
+	}
+	
+	.primary-button {
+		border: 2px solid white;
+		border-radius: 10px ;
+		padding: 10px;
+		color: white;
+		font-size: 12px;
+		font-weight: 600;
+		background: transparent;
+		cursor: pointer;
+	}
+	
+	#footer{
+		color: white;
+		border: 2px solid white;
+		border-radius: 5px;
+		padding: 5px;
+		display: flex;
+		justify-content: space-between;
+		font-size: 14px;
+	}
+	
+	#filterButtons{
+		display: flex;
+		justify-content: space-between;
+		margin: 5px 0 0 0;
+	}
+	
+	#showAll, #showCompleted, #showRemaining{
+		border: 3px solid white;
+		border-radius: 10px ;
+		padding: 5px;
+		color: white;
+		font-size: 11px;
+		font-weight: 600;
+		background: transparent;
+		cursor: pointer;
+	}	
+}
