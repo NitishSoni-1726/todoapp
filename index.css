@@ -225,16 +225,14 @@ body{
 	
 	#searchbar{
 		color: white;
-		margin-top: 10px;
-		margin-bottom: 5px;
 		background: transparent;
 		height: 30px;
 		font-weight: 500;
 		padding: 5px 5px;
 		border: 2px solid white;
 		border-radius: 5px;
-		font-size: 0px;
-		width: 100%;
+		font-size: 15px;
+		width: 95%;
 	}
 	
 	#displayBox{
@@ -375,4 +373,7 @@ body{
 		background: transparent;
 		cursor: pointer;
 	}	
+	::placeholder{
+		color: white;
+	}
 }
