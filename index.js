@@ -144,7 +144,7 @@ function createListItem(id, text, completed) {
     saveChange.style.display = "block";
     textEl.contentEditable = true;
     textEl.style.background = "transparent";
-    textEl.style.border = "2px solid black";
+    textEl.style.border = "2px solid white";
   }
   //Function to save edited Task
   function saveTask() {
