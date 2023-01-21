@@ -16,10 +16,20 @@ body{
 	justify-content: center;
 }
 
+.header{
+	text-decoration: underline;
+	color: white;
+	font-size: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
 .content{
 	margin-bottom: 150px;
-	margin-top: 200px;
-	max-width: 700px;
+	margin-top: 20px;
+	max-width: 1000px;
 	width: 100%;
 	padding: 20px 20px;
 	background: transparent;
@@ -78,6 +88,10 @@ body{
 }
 
 #list{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 200px;
+	max-height: 100%;
 	margin: 10px 0 10px 0;
 	padding: 20px;
 }
@@ -202,20 +216,30 @@ body{
 	}
 	.container{
 		display: flex;
-		height: 100%;
 		width: 100%;
 		justify-content: center;
 	}
+
+	.header{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+		font-size: 30px;
+		color: white;
+		text-decoration: underline;
+		font-weight: 500;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 	
 	.content{
-		margin-bottom: 150px;
-		margin-top: 200px;
-		max-width: 500px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		max-width: 400px;
 		width: 100%;
 		padding: 10px 10px;
 		background: transparent;
-		border: 2px solid white;
-		border-radius: 8px;
+		border: none;
 	}
 	
 	#search{
@@ -224,6 +248,7 @@ body{
 	}
 	
 	#searchbar{
+		margin-top: 10px;
 		color: white;
 		background: transparent;
 		height: 30px;
@@ -232,7 +257,7 @@ body{
 		border: 2px solid white;
 		border-radius: 5px;
 		font-size: 15px;
-		width: 95%;
+		width: 100%;
 	}
 	
 	#displayBox{
@@ -267,6 +292,10 @@ body{
 	}
 	
 	#list{
+		overflow-x: hidden;
+		overflow-y: scroll;
+		height: 430px;
+		max-height: 100%;
 		margin: 5px 0 5px 0;
 		padding: 10px;
 	}
@@ -341,7 +370,7 @@ body{
 		border-radius: 10px ;
 		padding: 10px;
 		color: white;
-		font-size: 12px;
+		font-size: 10px;
 		font-weight: 600;
 		background: transparent;
 		cursor: pointer;
@@ -354,7 +383,7 @@ body{
 		padding: 5px;
 		display: flex;
 		justify-content: space-between;
-		font-size: 14px;
+		font-size: 13px;
 	}
 	
 	#filterButtons{
@@ -368,8 +397,8 @@ body{
 		border-radius: 10px ;
 		padding: 5px;
 		color: white;
-		font-size: 11px;
-		font-weight: 600;
+		font-size: 10px;
+		font-weight: 500;
 		background: transparent;
 		cursor: pointer;
 	}	
