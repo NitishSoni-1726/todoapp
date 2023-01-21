@@ -26,8 +26,6 @@ body{
 }
 
 .content{
-	max-height: 600px;
-	height: 100%;
 	margin-bottom: 150px;
 	margin-top: 20px;
 	max-width: 1000px;
@@ -209,7 +207,7 @@ body{
 	display: none;
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
 	body{
 		background-image: url(mobile\ background.jpg);
 		background-repeat: repeat;
@@ -296,7 +294,7 @@ body{
 	#list{
 		overflow-x: hidden;
 		overflow-y: scroll;
-		height: 430px;
+		height: 360px;
 		max-height: 100%;
 		margin: 5px 0 5px 0;
 		padding: 10px;
